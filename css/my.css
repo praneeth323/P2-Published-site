@@ -1,0 +1,35 @@
+body {
+  padding-top: 5rem;
+}
+
+body, html {
+  height: 100%;
+}
+
+.video-wrapper {
+  width: 100%;
+  background-color: lightyellow;
+}
+
+section {
+  margin: 1rem;
+  padding: 2rem;
+  background-color: lightyellow;
+  border-radius: 2em;
+}
+
+.bgimg {
+  background-image: url("https://www.visitrapidcity.com/sites/default/files/styles/masthead_flex_image/public/masthead/hero-desktop-1.jpg?itok=XSC46mmm&c=5cc24ea7a4f7d6ffcd404b920158b789");
+  height: 100%;
+  position: relative;
+  opacity: 0.85;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed; /* fixed in viewport */
+}
+
+#img-circle {
+border-radius: 50%;
+}
+
