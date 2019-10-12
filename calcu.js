@@ -28,8 +28,8 @@ function aj() {
       } else {
         localStorage.clickcount = 1;
       }
-      document.getElementById("lresult").innerHTML = "You have clicked the button " + localStorage.clickcount + " time(s).";
+      document.getElementById("aj").innerHTML = "You have clicked the button " + localStorage.clickcount + " time(s).";
     } else {
-      document.getElementById("lresult").innerHTML = "Sorry, your browser does not support web storage...";
+      document.getElementById("aj").innerHTML = "Sorry, your browser does not support web storage...";
     }
   }
